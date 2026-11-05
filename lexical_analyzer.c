@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -136,3 +135,70 @@ int main()
 
     return 0;
 }
+
+
+
+
+// input.txt
+
+// int main()
+// {
+//     int a = 5;
+//     int b = 3;
+//     float sum = 8;
+//     printf(a);
+//     return 0;
+// }
+
+
+// --------------------------------------------------------------------------------------------OUTPUT-------------------------------------------------------------------------------------------------
+// identifier.txt
+// int main int a int b float sum printf a return 
+
+// specialcharacter.txt
+// ()
+// {
+// =;
+// =;
+// =;
+// ();
+// ;
+// }
+
+// output                               
+// The no's in the program are:5   3       8       0
+// The keywords and identifiers are:
+// int is a keyword
+
+// main is an identifier
+
+// int is a keyword
+
+// a is an identifier
+
+// int is a keyword
+
+// b is an identifier
+
+// float is a keyword
+
+// sum is an identifier
+
+// printf is an identifier
+
+// a is an identifier
+
+// return is a keyword
+
+// The special characters are:(){=;=;=;();;}
+
+// Total no. of lines are:     8
+
+// Count of numbers are:     4
+
+// Total no. of keywords are:     5
+
+// Total no. of identifiers are:     6
+
+// Total no. of special characters are:    14
+
